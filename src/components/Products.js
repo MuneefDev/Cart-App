@@ -12,7 +12,7 @@ function Product() {
 
   useEffect(() => {
     dispatch(fetchProducts());
-  }, []);
+  }, [dispatch]);
 
   return (
     <Container>
