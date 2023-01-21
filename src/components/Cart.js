@@ -15,7 +15,7 @@ function Cart() {
     <Container>
       <Row className="mt-5 py-2">
         <Col className="col-3 mt-3">
-          <h2>Welcome to cart</h2>
+          <h2>Welcome to cart after change</h2>
         </Col>
         <Col className="col-2 mt-3">
           <Button
