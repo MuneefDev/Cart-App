@@ -15,11 +15,11 @@ function Product() {
   }, [dispatch]);
 
   return (
-    <Container>
-      <Row className="my-5 py-5">
+    <Container className="">
+      <Row className="my-5 py-5 justify-content-center">
         {products.length === 0 && <div>Loading Products ...</div>}
         {products.map((product) => (
-          <Col key={product.id}>
+          <Col key={product.id} className="col-9 col-md-4 col-lg-3">
             <Card className="my-2" style={{ width: "18rem" }}>
               <Card.Img
                 style={{ height: "20rem" }}

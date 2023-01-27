@@ -14,10 +14,10 @@ function Cart() {
   return (
     <Container>
       <Row className="mt-5 py-2">
-        <Col className="col-3 mt-3">
-          <h2>Welcome to cart</h2>
+        <Col className="col-8 mt-3">
+          <h2 className="text-start">Welcome to cart</h2>
         </Col>
-        <Col className="col-2 mt-3">
+        <Col className="col-4 mt-3">
           <Button
             onClick={() => {
               dispatch(clear());
@@ -28,8 +28,8 @@ function Cart() {
         </Col>
       </Row>
       <Row>
-        <Col className="col-2 mx-2">
-          <h5>Total Price: ${totalPrice.toFixed(2)}</h5>
+        <Col className="col-9 mb-4">
+          <h5 className="text-start">Total Price: ${totalPrice.toFixed(2)}</h5>
         </Col>
       </Row>
       <Table striped>
